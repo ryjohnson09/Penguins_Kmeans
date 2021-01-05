@@ -10,7 +10,7 @@ ui <- fluidPage(
     # Application title
     titlePanel("Palmer Penguins: K-Means Clustering"),
     
-    # Sidebar with a slider input for number of bins
+    # Sidebar with a axis inputs and cluster count
     sidebarLayout(
         sidebarPanel(
             selectInput('xcol', 'X Variable', penguin_vars),
